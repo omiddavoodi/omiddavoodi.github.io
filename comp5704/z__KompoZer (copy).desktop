@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=KompoZer
+GenericName=Web Authoring System
+Comment=Create Web Pages
+Categories=Development;WebDevelopment;Network;
+Exec=kompozer
+Icon=kompozer
+Terminal=false
+MimeType=text/html;text/xml;text/css;text/x-javascript;text/javascript;application/xhtml+xml;
+Type=Application
+Name[en_CA]=z__KompoZer

@@ -1,0 +1,171 @@
+
+% ===========================================================================
+% Title:
+% ---------------------------------------------------------------------------
+% to create Type I fonts type "dvips -P cmz -t letter <filename>"
+% ===========================================================================
+\documentclass[11pt]{article}       %--- LATEX 2e base
+\usepackage{latexsym}               %--- LATEX 2e base
+%---------------- Wide format -----------------------------------------------
+\textwidth=6in \textheight=9in \oddsidemargin=0.25in
+\evensidemargin=0.25in \topmargin=-0.5in
+%--------------- Def., Theorem, Proof, etc. ---------------------------------
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{fact}{Fact}
+\newenvironment{proof}           {\noindent{\bf Proof.} }%
+                                 {\null\hfill$\Box$\par\medskip}
+%--------------- Algorithm --------------------------------------------------
+\newtheorem{algX}{Algorithm}
+\newenvironment{algorithm}       {\begin{algX}\begin{em}}%
+                                 {\par\noindent --- End of Algorithm ---
+                                 \end{em}\end{algX}}
+\newcommand{\step}[2]            {\begin{list}{}
+                                  {  \setlength{\topsep}{0cm}
+                                     \setlength{\partopsep}{0cm}
+                                     \setlength{\leftmargin}{0.8cm}
+                                     \setlength{\labelwidth}{0.7cm}
+                                     \setlength{\labelsep}{0.1cm}    }
+                                  \item[#1]#2    \end{list}}
+                                 % usage: \begin{algorithm} \label{xyz}
+                                 %        ... \step{(1)}{...} ...
+                                 %        \end{algorithm}
+%--------------- Figures ----------------------------------------------------
+\usepackage{graphicx}
+
+\newcommand{\includeFig}[3]      {\begin{figure}[htb] \begin{center}
+                                 \includegraphics
+                                 [width=4in,keepaspectratio] %comment this line to disable scaling
+                                 {#2}\caption{\label{#1}#3} \end{center} \end{figure}}
+                                 % usage: \includeFig{label}{file}{caption}
+
+
+% ===========================================================================
+\begin{document}
+% ===========================================================================
+
+% ############################################################################
+% Title
+% ############################################################################
+
+\title{--- Your Project Title ---}
+
+
+% ############################################################################
+% Author(s) (no blank lines !)
+\author{
+% ############################################################################
+John Doe\\
+School of Computer Science\\
+Carleton University\\
+Ottawa, Canada K1S 5B6\\
+{\em John-Doe@scs.carleton.ca}
+% ############################################################################
+} % end-authors
+% ############################################################################
+
+\maketitle
+
+% ############################################################################
+% Abstract
+% ############################################################################
+\begin{abstract}
+A very concise summary of the problem addressed and solution presented in this paper.
+\end{abstract}
+
+
+% ############################################################################
+\section{Introduction} \label{intro}
+% ############################################################################
+
+Introduce your project topic (start from parallel computing in
+general and lead to your particular topic). Describe your project
+goals. Describe what you have achieved in your project. Outline
+the structure of your paper. (In Section~\ref{litrev}, we will
+review the relevant literature. Section~\ref{projrep} will present
+the results of our project. In Section~\ref{subsect1}, ...
+Section~\ref{concl} concludes the paper.
+
+
+% ############################################################################
+\section{Literature Review} \label{litrev}
+% ############################################################################
+
+Give an overview of the relevant literature. Cite all relevant
+papers, like \cite{DEL07}, \cite{PD07}, \cite{DER07}, \cite{LDR07},
+\cite{DLX06}, \cite{CDE06}, and \cite{DFL06}. Outline for each paper
+the relevant results in relation to your project. Make sure that you
+don't just list all relevant papers in random order. Devise a scheme
+to group papers by subject. The goal of this section is to present
+to the reader the state-of-the-art in the field selected for your
+project.
+
+% ############################################################################
+\section{Problem Statement} \label{problemStatement}
+% ############################################################################
+
+\begin{enumerate}
+\item A concise statement of the question that your paper tackles.
+\item Justification, by direct reference to your Literature Review, that your question is previously unanswered.
+\item Discussion of why it is worthwhile to answer this question.
+\end{enumerate}
+
+% ############################################################################
+\section{Proposed Solution: ...} \label{proposedSolution}
+% ############################################################################
+
+This part of the paper is much more free-form. It may have one or several sections and subsections. But it all has only one purpose: to convince the reader that you answered the question or solved the problem that you set for yourself. In this section you will for example present new algorithms you developed and your implementation of these new algorithms.
+
+ Figure~\ref{fig2} is an example
+of a drawing created with {\em mdraw} or {\em epsfig}.
+
+\includeFig{fig2}{Figures/figure-2}{XYZ and Hilbert Packings}
+% usage: \includeFig{label}{file}{caption}
+
+% ############################################################################
+\section{Experimental Evaluation} \label{expEval}
+% ############################################################################
+
+This section is not mandatory for all papers (for example theory papers) but typically required for papers in the field of parallel computing. After all, parallel computing is all about compute performance. Here you present performance data obtained from e.g. running your newly developed algorithms and code on a parallel machine using some benchmark input data. Typically, you need to describe the parallel machine you used and the data that you used as input. The main results are usually performance graphs, typically speedup curves. You want to evaluate your code on different input data sets highlighting the strengths and weaknesses of your code. Don’t just use best case scenarios. People will call you on that. Discuss the results obtained.
+
+ Figure~\ref{fig1} is a
+typical example of an experimental evaluation result. Such graphs
+are ususally created with GnuPlot.
+
+\includeFig{fig1}{Figures/figure-1}{Measured Running Times
+Of Some Unknown Algorithm Implementation}
+% usage: \includeFig{label}{file}{caption}
+
+
+
+% ############################################################################
+\section{Conclusions} \label{concl}
+% ############################################################################
+
+You generally cover three things in the Conclusions section.
+\begin{enumerate}
+\item Conclusions
+\item Summary of Contributions
+\item Future Research
+\end{enumerate}
+
+Conclusions are not a rambling summary of the thesis: they are short, concise statements of the inferences that you have made because of your work. All conclusions should be directly related to the research question.
+
+The Summary of Contributions will be much sought and carefully read by the readers. Here you list the contributions of new knowledge that your paper makes. Of course, the paper itself must substantiate any claims made here. There is often some overlap with the Conclusions, but that’s okay.
+
+The Future Research should indicate interesting new problems arising from your work. No paper ever solves everything. In fact, the best research papers lead to new research questions for other researchers to work on.
+
+
+% ############################################################################
+% Bibliography
+% ############################################################################
+\bibliographystyle{plain}
+\bibliography{my-bibliography}     %loads my-bibliography.bib
+
+% ============================================================================
+\end{document}
+% ============================================================================

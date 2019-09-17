@@ -1,0 +1,105 @@
+
+% ===========================================================================
+% Title:
+% ---------------------------------------------------------------------------
+% to create Type I fonts type "dvips -P cmz -t letter <filename>"
+% ===========================================================================
+\documentclass[11pt]{article}       %--- LATEX 2e base
+\usepackage{latexsym}               %--- LATEX 2e base
+%---------------- Wide format -----------------------------------------------
+\textwidth=6in \textheight=9in \oddsidemargin=0.25in
+\evensidemargin=0.25in \topmargin=-0.5in
+%--------------- Def., Theorem, Proof, etc. ---------------------------------
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{fact}{Fact}
+\newenvironment{proof}           {\noindent{\bf Proof.} }%
+                                 {\null\hfill$\Box$\par\medskip}
+%--------------- Algorithm --------------------------------------------------
+\newtheorem{algX}{Algorithm}
+\newenvironment{algorithm}       {\begin{algX}\begin{em}}%
+                                 {\par\noindent --- End of Algorithm ---
+                                 \end{em}\end{algX}}
+\newcommand{\step}[2]            {\begin{list}{}
+                                  {  \setlength{\topsep}{0cm}
+                                     \setlength{\partopsep}{0cm}
+                                     \setlength{\leftmargin}{0.8cm}
+                                     \setlength{\labelwidth}{0.7cm}
+                                     \setlength{\labelsep}{0.1cm}    }
+                                  \item[#1]#2    \end{list}}
+                                 % usage: \begin{algorithm} \label{xyz}
+                                 %        ... \step{(1)}{...} ...
+                                 %        \end{algorithm}
+%--------------- Figures ----------------------------------------------------
+\usepackage{graphicx}
+
+\newcommand{\includeFig}[3]      {\begin{figure}[htb] \begin{center}
+                                 \includegraphics
+                                 [width=4in,keepaspectratio] %comment this line to disable scaling
+                                 {#2}\caption{\label{#1}#3} \end{center} \end{figure}}
+                                 % usage: \includeFig{label}{file}{caption}
+
+
+% ===========================================================================
+\begin{document}
+% ===========================================================================
+
+% ############################################################################
+% Title
+% ############################################################################
+
+\title{LITERATURE REVIEW: --- Your Project Title ---}
+
+
+% ############################################################################
+% Author(s) (no blank lines !)
+\author{
+% ############################################################################
+John Doe\\
+School of Computer Science\\
+Carleton University\\
+Ottawa, Canada K1S 5B6\\
+{\em John-Doe@scs.carleton.ca}
+% ############################################################################
+} % end-authors
+% ############################################################################
+
+\maketitle
+
+
+
+% ############################################################################
+\section{Introduction} \label{intro}
+% ############################################################################
+
+Introduce your project topic (start from parallel computing in
+general and lead to your particular topic). Describe what you
+intend to achieve in your project.
+
+
+% ############################################################################
+\section{Literature Review} \label{litrev}
+% ############################################################################
+
+Give an overview of the relevant literature. Cite all relevant
+papers, like \cite{DEL07}, \cite{PD07}, \cite{DER07}, \cite{LDR07},
+\cite{DLX06}, \cite{CDE06}, and \cite{DFL06}. Outline for each paper
+the relevant results in relation to your project. Make sure that you
+don't just list all relevant papers in random order. Devise a scheme
+to group papers by subject. The goal is to present to the reader the
+state-of-the-art in the field selected for your project.
+
+
+% ############################################################################
+% Bibliography
+% ############################################################################
+\bibliographystyle{plain}
+\bibliography{my-bibliography}     %loads my-bibliography.bib
+
+% ============================================================================
+\end{document}
+% ============================================================================

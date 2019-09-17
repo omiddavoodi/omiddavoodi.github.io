@@ -1,0 +1,73 @@
+
+% ===========================================================================
+% Title:
+% ---------------------------------------------------------------------------
+% to create Type I fonts type "dvips -P cmz -t letter <filename>"
+% ===========================================================================
+\documentclass[11pt]{article}       %--- LATEX 2e base
+\usepackage{latexsym}               %--- LATEX 2e base
+%---------------- Wide format -----------------------------------------------
+\textwidth=6in \textheight=9in \oddsidemargin=0.25in
+\evensidemargin=0.25in \topmargin=-0.5in
+%--------------- Slide --------------------------------------------------
+\newenvironment{slide}[1]        {\section{#1} \begin{itemize}}%
+                                 {\end{itemize}}
+                                 % usage: \begin{slide}{---SLIDE TITLE---}
+                                 %        \item ...
+                                 %        \item ...
+                                 %        \item ...
+                                 %        \end{slide}
+% ===========================================================================
+\begin{document}
+% ===========================================================================
+
+% ############################################################################
+% Title
+% ############################################################################
+
+\title{PRESENTATION OUTLINE: --- Your Project Title ---}
+
+
+% ############################################################################
+% Author(s) (no blank lines !)
+\author{
+% ############################################################################
+John Doe\\
+School of Computer Science\\
+Carleton University\\
+Ottawa, Canada K1S 5B6\\
+{\em John-Doe@scs.carleton.ca}
+% ############################################################################
+} % end-authors
+% ############################################################################
+
+\maketitle
+
+% ############################################################################
+\begin{slide}{Title of my first slide}
+\item first thing
+\item second thing
+\item third thing
+\item fourth thing
+\end{slide}
+
+
+% ############################################################################
+\begin{slide}{Title of my second slide}
+\item first thing
+\item second thing
+\item third thing
+\item fourth thing
+\end{slide}
+
+\noindent ... more slides ...
+
+% ############################################################################
+% Bibliography
+% ############################################################################
+\bibliographystyle{plain}
+\bibliography{my-bibliography}     %loads my-bibliography.bib
+
+% ============================================================================
+\end{document}
+% ============================================================================
