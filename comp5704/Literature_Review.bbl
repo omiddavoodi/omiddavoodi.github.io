@@ -1,15 +1,205 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{goodfellow2014generative}
-Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
-  Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
-\newblock Generative adversarial nets.
-\newblock In {\em Advances in neural information processing systems}, pages
-  2672--2680, 2014.
 
-\bibitem{mescheder2018training}
-Lars Mescheder, Andreas Geiger, and Sebastian Nowozin.
-\newblock Which training methods for gans do actually converge?
-\newblock {\em arXiv preprint arXiv:1801.04406}, 2018.
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{goodfellow2014generative}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{bibnamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorbibnamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Generative adversarial nets}
+      \field{year}{2014}
+      \field{pages}{2672\bibrangedash 2680}
+      \range{pages}{9}
+    \endentry
+    \entry{mescheder2018training}{article}{}
+      \name{author}{3}{}{%
+        {{hash=00429e7f3507eb48f703bc1260af714a}{%
+           family={Mescheder},
+           familyi={M\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06133052ac3c14a188601b82783cd4f7}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=19f1290979d0752b02fbf7ab6b20f438}{%
+           family={Nowozin},
+           familyi={N\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{fullhash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{bibnamehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{authorbibnamehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{authornamehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{authorfullhash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1801.04406}
+      \field{title}{Which training methods for GANs do actually converge?}
+      \field{year}{2018}
+    \endentry
+    \entry{Li2014}{article}{}
+      \name{author}{13}{}{%
+        {{hash=c4a02f87e51fc72ab3f841de1a3982a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=89b4b2a6fa735d08993dc81c86f31571}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=eb3f82855af18c6500a976b9f2253c74}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jun\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=63ce7b48a93e8ce6d92c61fe6cd7b71a}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod}}}%
+        {{hash=71d9618878f006b02c9cfc5e838d2800}{%
+           family={Josifovski},
+           familyi={J\bibinitperiod},
+           given={Vanja},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4fef5995f37ce2ea2d100a4c9de0a536}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f392407999d216a90d2afc503f61d43c}{%
+           family={Shekita},
+           familyi={S\bibinitperiod},
+           given={Eugene\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ce418d928b8c49ca3f75caa691519759}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Bor-yiing},
+           giveni={B\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=c4a02f87e51fc72ab3f841de1a3982a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=89b4b2a6fa735d08993dc81c86f31571}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=eb3f82855af18c6500a976b9f2253c74}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jun\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=82d61e31b4f7f82ad59ff887349bdfe3}{%
+           family={Smola},
+           familyi={S\bibinitperiod},
+           given={Alexander\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=63ce7b48a93e8ce6d92c61fe6cd7b71a}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{fullhash}{39b8d3dbd74a15bb8fdc1deee50d9f67}
+      \strng{bibnamehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{authorbibnamehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{authornamehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{authorfullhash}{39b8d3dbd74a15bb8fdc1deee50d9f67}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a parameter server framework for distributed machine learning problems. Both data and workloads are distributed over worker nodes, while the server nodes maintain globally shared parameters, represented as dense or sparse vectors and matrices. The framework manages asynchronous data communication between nodes, and supports flexible consistency models, elastic scalability, and continuous fault tolerance. To demonstrate the scalability of the proposed frame-work, we show experimental results on petabytes of real data with billions of examples and parameters on prob-lems ranging from Sparse Logistic Regression to Latent Dirichlet Allocation and Distributed Sketching.}
+      \field{isbn}{9781931971164}
+      \field{journaltitle}{Proceedings of OSDI}
+      \field{title}{{Scaling Distributed Machine Learning with the Parameter Server}}
+      \field{year}{2014}
+      \field{pages}{583\bibrangedash 598}
+      \range{pages}{16}
+      \verb{file}
+      \verb :C$\backslash$:/Users/omid/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - 2014 - Scaling Distributed Machine Learning with the Parameter Server.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\end{thebibliography}

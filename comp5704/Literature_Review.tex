@@ -36,6 +36,9 @@
                                  %        \end{algorithm}
 %--------------- Figures ----------------------------------------------------
 \usepackage{graphicx}
+\usepackage[sorting=none]{biblatex}
+% \addbibresource{my-bibliography.bib}
+\bibliography{my-bibliography.bib}     %loads my-bibliography.bib
 
 \newcommand{\includeFig}[3]      {\begin{figure}[htb] \begin{center}
                                  \includegraphics
@@ -103,14 +106,17 @@ This section presents the publications based on the above groupings.
 
 Previous work on methods to distribute machine learning algorithms in general mostly tries to find efficient ways for each machine to access the elements of the dataset over a network. One of the main characteristics of these approaches is that there are very few assumptions about the underlying machine learning algorithm.
 
-As mentioned above, these approaches usually try to help the machine learning algorithm access data over a network. 
+As mentioned above, these approaches usually try to help the machine learning algorithm access data over a network. An approach by Li et. al\cite{Li2014} defines a parameter server where each node can access the parameters of the model as well as the training data without worrying about where the data is actually located. The approach groups the machines into two categories: Server nodes and workers. Server nodes each contain a portion of the model data and they communicate with each other to keep the model consistent across the whole server group. Data is replicated across servers to increase reliability. As server nodes are not required to contain all of the data at the same time, the system can be scalable even when the parameters exceed the storage capability of any single server node. There is also a server manager node which is designed to organize the servers themselves by checking for node removals, failures or additions.
+Worker nodes are where the actual computation takes place. worker nodes are separated into worker groups and each node can access or update the parameters of the model by issuing push and pull commands to the server group. A scheduler for each worker group assigns tasks to each worker and monitors the progress, rescheduling the tasks in case of node failure or addition. This system is designed to be model agnostic.
+
+
 
 % ############################################################################
 % Bibliography
 % ############################################################################
-\bibliographystyle{plain}
-\bibliography{my-bibliography}     %loads my-bibliography.bib
+% \bibliographystyle{plain}
 
+\printbibliography
 % ============================================================================
 \end{document}
 % ============================================================================
