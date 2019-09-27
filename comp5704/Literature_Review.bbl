@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{goodfellow2014generative}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock Generative adversarial nets.
+\newblock In {\em Advances in neural information processing systems}, pages
+  2672--2680, 2014.
+
+\bibitem{mescheder2018training}
+Lars Mescheder, Andreas Geiger, and Sebastian Nowozin.
+\newblock Which training methods for gans do actually converge?
+\newblock {\em arXiv preprint arXiv:1801.04406}, 2018.
+
+\end{thebibliography}

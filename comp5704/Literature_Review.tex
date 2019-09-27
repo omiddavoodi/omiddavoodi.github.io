@@ -52,21 +52,21 @@
 % Title
 % ############################################################################
 
-\title{LITERATURE REVIEW: --- Your Project Title ---}
+\title{LITERATURE REVIEW: Evaluating Distributed methods for training Generative Adversarial Networks}
 
 
 % ############################################################################
 % Author(s) (no blank lines !)
 \author{
 % ############################################################################
-John Doe\\
+Omid Davoudi\\
 School of Computer Science\\
 Carleton University\\
 Ottawa, Canada K1S 5B6\\
-{\em John-Doe@scs.carleton.ca}
+{\em omiddavodui@cmail.carleton.ca}
 % ############################################################################
 } % end-authors
-% ############################################################################
+%11 ############################################################################
 
 \maketitle
 
@@ -76,23 +76,34 @@ Ottawa, Canada K1S 5B6\\
 \section{Introduction} \label{intro}
 % ############################################################################
 
-Introduce your project topic (start from parallel computing in
-general and lead to your particular topic). Describe what you
-intend to achieve in your project.
+Deep Learning has opened many possibilities in the world of machine learning. This comes at the cost of requiring extremely large datasets and high computational power. As datasets grow in size, it is getting harder and harder to fit them in the memory of a single machine. The slowdown in hardware development can also be a major concern for the future of machine learning.
 
+One of the most realistic ways to combat those problems is to distribute the training of Deep Learning models among a number of distinct computers. The massively parallel nature of artificial neural networks, which form the backbone of deep learning, helps in this regard.
+
+Generative Adversarial Networks (GANs)\cite{goodfellow2014generative} are a deep learning model that learns the distribution of the input data and outputs data points from that distribution. One of the domains where GANs are popular is the domain of image generation. A properly trained GAN can learn from a dataset of images and then, output new images that, while not found in the dataset, follow the same general rule. For example, a GAN properly trained on dataset containing images of cats will be able to output new cat images.
+
+GANs are generally hard to train.\cite{mescheder2018training} Their structure and competing nature means that convergence is not guaranteed. Even when they do converge, there could be many problems with the output, such as different distributions of data or in severe cases, mode collapse. The additional challenge of having to train these models in a distributed manner could further complicate the situation and possibly prevent convergence.
+
+In this section, a number of approaches for distributing the training of neural networks are introduced. Furthermore, an approach specifically designed for distributed training of GANs is reviewed.
 
 % ############################################################################
 \section{Literature Review} \label{litrev}
 % ############################################################################
 
-Give an overview of the relevant literature. Cite all relevant
-papers, like \cite{DEL07}, \cite{PD07}, \cite{DER07}, \cite{LDR07},
-\cite{DLX06}, \cite{CDE06}, and \cite{DFL06}. Outline for each paper
-the relevant results in relation to your project. Make sure that you
-don't just list all relevant papers in random order. Devise a scheme
-to group papers by subject. The goal is to present to the reader the
-state-of-the-art in the field selected for your project.
+Related literature to this field can be classified in three major subgroups:
+\begin{itemize}
+\item Algorithms that try to distribute any machine learning algorithm, including neural networks, over a set of machines.
+\item Algorithms that try to distribute neural network training itself
+\item Algorithms and architectures that try to distribute training of a specific class of neural networks.
+\end{itemize}
 
+This section presents the publications based on the above groupings.
+
+\subsection{General Machine Learning Distribution}
+
+Previous work on methods to distribute machine learning algorithms in general mostly tries to find efficient ways for each machine to access the elements of the dataset over a network. One of the main characteristics of these approaches is that there are very few assumptions about the underlying machine learning algorithm.
+
+As mentioned above, these approaches usually try to help the machine learning algorithm access data over a network. 
 
 % ############################################################################
 % Bibliography
