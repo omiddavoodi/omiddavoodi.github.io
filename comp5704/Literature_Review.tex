@@ -79,7 +79,7 @@ Ottawa, Canada K1S 5B6\\
 \section{Introduction} \label{intro}
 % ############################################################################
 
-Deep Learning has opened many possibilities in the world of machine learning. This comes at the cost of requiring extremely large datasets and high computational power. As datasets grow in size, it is getting harder and harder to fit them in the memory of a single machine. The slowdown in hardware development can also be a major concern for the future of machine learning.
+Deep Learning has opened many possibilities in the world of machine learning. This comes at the cost of requiring extremely large datasets and high computational power. As datasets grow in size, it is getting harder and harder to fit them in the memory of a single machine. Sometimes, different partitions of data are located in different continents. The slowdown in hardware development and network speed increases can also be a major concern for the future of machine learning.
 
 One of the most realistic ways to combat those problems is to distribute the training of Deep Learning models among a number of distinct computers. The massively parallel nature of artificial neural networks, which form the backbone of deep learning, helps in this regard.
 
@@ -104,12 +104,24 @@ This section presents the publications based on the above groupings.
 
 \subsection{General Machine Learning Distribution}
 
-Previous work on methods to distribute machine learning algorithms in general mostly tries to find efficient ways for each machine to access the elements of the dataset over a network. One of the main characteristics of these approaches is that there are very few assumptions about the underlying machine learning algorithm.
+Previous work on methods to distribute machine learning algorithms in general mostly tries to find efficient ways for each machine to access the elements of the dataset over a network. One of the main characteristics of these approaches is that there are very few assumptions about the underlying machine learning algorithm. As a result, they can usually be exploited by broad groups of machine learning algorithms.
 
-As mentioned above, these approaches usually try to help the machine learning algorithm access data over a network. An approach by Li et. al\cite{Li2014} defines a parameter server where each node can access the parameters of the model as well as the training data without worrying about where the data is actually located. The approach groups the machines into two categories: Server nodes and workers. Server nodes each contain a portion of the model data and they communicate with each other to keep the model consistent across the whole server group. Data is replicated across servers to increase reliability. As server nodes are not required to contain all of the data at the same time, the system can be scalable even when the parameters exceed the storage capability of any single server node. There is also a server manager node which is designed to organize the servers themselves by checking for node removals, failures or additions.
+As mentioned above, these approaches usually try to help the machine learning algorithm access data over a network. An approach by Li et. al\cite{Li2014} defines a parameter server where each node can access the parameters of the model as well as the training data without worrying about where the data is actually located. 
+
+The approach groups the machines into two categories: Server nodes and workers. Server nodes each contain a portion of the model data and they communicate with each other to keep the model consistent across the whole server group. Data is replicated across servers to increase reliability. 
+
+As server nodes are not required to contain all of the data at the same time, the system can be scalable even when the parameters exceed the storage capability of any single server node. There is also a server manager node which is designed to organize the servers themselves by checking for node removals, failures or additions.
 Worker nodes are where the actual computation takes place. worker nodes are separated into worker groups and each node can access or update the parameters of the model by issuing push and pull commands to the server group. A scheduler for each worker group assigns tasks to each worker and monitors the progress, rescheduling the tasks in case of node failure or addition. This system is designed to be model agnostic.
 
+While this approach performs well in clusters with high network bandwidth and low latency, it fails in situations where the network bandwidth between nodes is low or the latency is high. This is because most machine learning algorithms are extremely communications intensive. One example of such setup is the case where some of the nodes are located in different geographical positions. This can be as extreme as having nodes in a different continent. In these cases, the bandwidth between different geographic locations is low and the latency will be higher as the physical distance grows. 
 
+One way to address this is by centralizing all of the data into a single data center with high bandwidth between each node. This approach has complications such as regulatory prohibitions, cost of data movement and the need for exceedingly large data centers that can store that large amount of data. 
+
+To address these issues, Cano et. al\cite{cano2016towards} introduced a method to perform some machine learning algorithms in a geo-distributed manner. This approach tries to minimize communications between datacenters by only sending statistical information and estimates between them. The machine learning algorithms that can be geo-distributed this way are the ones that can fit the Statistical Query Model\cite{kearns1998efficient}.
+
+While the previous approach helped mitigate the problem with cross-datacenter communications, it is limited to only a subset of the machine learning algorithms. To address this, Hsieh et. al\cite{hsieh2017gaia} introduced a method called Gaia. This method tries to limit the communication between different datacenters without changing the underlying machine learning algorithm. It works by reducing the communication to synchronize the models in different datacenters. Instead, it does so only when the models have sufficiently diverged from each other.
+
+This approach works on the basis that most of the machine learning algorithms iterations do not change the parameter values significantly. 
 
 % ############################################################################
 % Bibliography

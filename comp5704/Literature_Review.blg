@@ -1,25 +1,25 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'Literature_Review.blg'
-[21] biber-MSWIN64:315> INFO - === 
-[35] Biber.pm:375> INFO - Reading 'Literature_Review.bcf'
-[106] Biber.pm:905> INFO - Found 3 citekeys in bib section 0
-[117] Biber.pm:4196> INFO - Processing section 0
-[118] Utils.pm:75> INFO - Globbing data source 'my-bibliography.bib'
-[124] Utils.pm:91> INFO - Globbed data source 'my-bibliography.bib' to my-bibliography.bib
-[133] Biber.pm:4373> INFO - Looking for bibtex format file 'my-bibliography.bib' for section 0
-[135] bibtex.pm:1462> INFO - LaTeX decoding ...
-[149] bibtex.pm:1281> INFO - Found BibTeX data source 'my-bibliography.bib'
-[190] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 13, warning: 33 characters of junk seen at toplevel
-[190] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 24, warning: 33 characters of junk seen at toplevel
-[190] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 35, warning: 33 characters of junk seen at toplevel
-[190] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 45, warning: 33 characters of junk seen at toplevel
-[190] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 56, warning: 33 characters of junk seen at toplevel
-[190] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 66, warning: 33 characters of junk seen at toplevel
-[191] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\omid\AppData\Local\Temp\qayqj95UiI\my-bibliography.bib_9472.utf8, line 77, warning: 33 characters of junk seen at toplevel
-[198] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[198] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[198] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[198] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
-[201] bbl.pm:648> INFO - Writing 'Literature_Review.bbl' with encoding 'UTF-8'
-[204] bbl.pm:751> INFO - Output to Literature_Review.bbl
-[207] Biber.pm:110> INFO - WARNINGS: 7
+[29] biber-MSWIN64:315> INFO - === 
+[57] Biber.pm:375> INFO - Reading 'Literature_Review.bcf'
+[153] Biber.pm:905> INFO - Found 6 citekeys in bib section 0
+[169] Biber.pm:4196> INFO - Processing section 0
+[174] Utils.pm:75> INFO - Globbing data source 'my-bibliography.bib'
+[186] Utils.pm:91> INFO - Globbed data source 'my-bibliography.bib' to my-bibliography.bib
+[203] Biber.pm:4373> INFO - Looking for bibtex format file 'my-bibliography.bib' for section 0
+[207] bibtex.pm:1462> INFO - LaTeX decoding ...
+[230] bibtex.pm:1281> INFO - Found BibTeX data source 'my-bibliography.bib'
+[307] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 13, warning: 33 characters of junk seen at toplevel
+[308] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 24, warning: 33 characters of junk seen at toplevel
+[308] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 35, warning: 33 characters of junk seen at toplevel
+[308] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 45, warning: 33 characters of junk seen at toplevel
+[308] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 56, warning: 33 characters of junk seen at toplevel
+[308] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 66, warning: 33 characters of junk seen at toplevel
+[308] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\ZYGlyVvKrq\my-bibliography.bib_11744.utf8, line 77, warning: 33 characters of junk seen at toplevel
+[323] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[323] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[323] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[323] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[328] bbl.pm:648> INFO - Writing 'Literature_Review.bbl' with encoding 'UTF-8'
+[335] bbl.pm:751> INFO - Output to Literature_Review.bbl
+[336] Biber.pm:110> INFO - WARNINGS: 7

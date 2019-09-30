@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.27)  27 SEP 2019 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.27)  30 SEP 2019 16:15
 entering extended mode
 **./Literature_Review.tex
 (Literature_Review.tex
@@ -400,20 +400,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
  [1
 
-{C:/Users/omid/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (Literat
-ure_Review.aux)
+{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 131.
+ [3] (Literature_Review.aux)
 Package logreq Info: Writing requests to 'Literature_Review.run.xml'.
 \openout1 = `Literature_Review.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8472 strings out of 492891
- 155661 string characters out of 3133351
- 597468 words of memory out of 3000000
- 12333 multiletter control sequences out of 15000+200000
- 9155 words of font info for 34 fonts, out of 3000000 for 9000
+ 8482 strings out of 492891
+ 156078 string characters out of 3133351
+ 599652 words of memory out of 3000000
+ 12343 multiletter control sequences out of 15000+200000
+ 9620 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,45p,1015b,1170s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,45p,873b,1170s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
@@ -421,9 +423,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
 s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on Literature_Review.pdf (2 pages, 103026 bytes).
+Output written on Literature_Review.pdf (3 pages, 111535 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

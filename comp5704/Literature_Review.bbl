@@ -199,6 +199,131 @@
       \verb :C$\backslash$:/Users/omid/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - 2014 - Scaling Distributed Machine Learning with the Parameter Server.pdf:pdf
       \endverb
     \endentry
+    \entry{cano2016towards}{article}{}
+      \name{author}{5}{}{%
+        {{hash=49ce7befb32d2db3ef64cb4f12dc1b05}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8789dc477eefa49388f15e510b8424c4}{%
+           family={Weimer},
+           familyi={W\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3a55a24e70b781030f26c1dd27a28d97}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Dhruv},
+           giveni={D\bibinitperiod}}}%
+        {{hash=08efe335b13664148cd14a5ad2d64b52}{%
+           family={Curino},
+           familyi={C\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=05c6f2bbd42a06caac64994208af80ae}{%
+           family={Fumarola},
+           familyi={F\bibinitperiod},
+           given={Giovanni\bibnamedelima Matteo},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{fullhash}{0c3c0faf4de130f761b96be2b3e25283}
+      \strng{bibnamehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{authorbibnamehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{authornamehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{authorfullhash}{0c3c0faf4de130f761b96be2b3e25283}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1603.09035}
+      \field{title}{Towards geo-distributed machine learning}
+      \field{year}{2016}
+    \endentry
+    \entry{kearns1998efficient}{article}{}
+      \name{author}{1}{}{%
+        {{hash=17efa7d29b8763456cc47d49b27ade63}{%
+           family={Kearns},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{fullhash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{bibnamehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{authorbibnamehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{authornamehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{authorfullhash}{17efa7d29b8763456cc47d49b27ade63}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM (JACM)}
+      \field{number}{6}
+      \field{title}{Efficient noise-tolerant learning from statistical queries}
+      \field{volume}{45}
+      \field{year}{1998}
+      \field{pages}{983\bibrangedash 1006}
+      \range{pages}{24}
+    \endentry
+    \entry{hsieh2017gaia}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=0685b7397f335a3e9d9d415d99d5cf09}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e168897e831461ec0641abba3cc86101}{%
+           family={Harlap},
+           familyi={H\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2b1f09a183ecb580fd6fea1bb3e3b970}{%
+           family={Vijaykumar},
+           familyi={V\bibinitperiod},
+           given={Nandita},
+           giveni={N\bibinitperiod}}}%
+        {{hash=13597e3c779732ed4c99a37f78eef6f6}{%
+           family={Konomis},
+           familyi={K\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c088fc39c55370692d55699c15dd1ffb}{%
+           family={Ganger},
+           familyi={G\bibinitperiod},
+           given={Gregory\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8a671c57e715f9770e740f9012f3a177}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={Phillip\bibnamedelima B},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5c37647ea7ea3d969c75fa814163e18f}{%
+           family={Mutlu},
+           familyi={M\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{fullhash}{f71e1aaf087b2b9b9bdce082cbb518ed}
+      \strng{bibnamehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{authorbibnamehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{authornamehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{authorfullhash}{f71e1aaf087b2b9b9bdce082cbb518ed}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{14th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 17)}
+      \field{title}{Gaia: Geo-Distributed Machine Learning Approaching $\{$LAN$\}$ Speeds}
+      \field{year}{2017}
+      \field{pages}{629\bibrangedash 647}
+      \range{pages}{19}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
