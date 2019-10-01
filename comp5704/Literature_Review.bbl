@@ -324,6 +324,57 @@
       \field{pages}{629\bibrangedash 647}
       \range{pages}{19}
     \endentry
+    \entry{BrendanMcMahan2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9209e222328755f377d421c29d8f9d6d}{%
+           family={{Brendan McMahan}},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4720b7685b2c38f8a5f238d67aac6c45}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Eider},
+           giveni={E\bibinitperiod}}}%
+        {{hash=86066638fba5b4dc33bcee0bcba473cf}{%
+           family={Ramage},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bd7751169aeb03f0e8ce6fd2a06822d3}{%
+           family={Hampson},
+           familyi={H\bibinitperiod},
+           given={Seth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b35041bca3c3edf78caf9ba2e13c6fd5}{%
+           family={{Ag{ü}era y Arcas}},
+           familyi={A\bibinitperiod},
+           given={Blaise},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{fullhash}{a999677511bb49e28748da4eb00086a1}
+      \strng{bibnamehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{authorbibnamehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{authornamehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{authorfullhash}{a999677511bb49e28748da4eb00086a1}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches. We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning. We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, AISTATS 2017}
+      \field{title}{{Communication-efficient learning of deep networks from decentralized data}}
+      \field{volume}{54}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb arXiv:1602.05629v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Brendan McMahan et al. - 2017 - Communication-efficient learning of deep networks from decentralized data.pdf:pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

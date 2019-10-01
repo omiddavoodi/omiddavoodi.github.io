@@ -79,9 +79,9 @@ Ottawa, Canada K1S 5B6\\
 \section{Introduction} \label{intro}
 % ############################################################################
 
-Deep Learning has opened many possibilities in the world of machine learning. This comes at the cost of requiring extremely large datasets and high computational power. As datasets grow in size, it is getting harder and harder to fit them in the memory of a single machine. Sometimes, different partitions of data are located in different continents. The slowdown in hardware development and network speed increases can also be a major concern for the future of machine learning.
+Deep Learning has opened many possibilities in the world of machine learning. This comes at the cost of requiring extremely large datasets and high computational power. As datasets grow in size, it is getting harder and harder to fit them in the memory of a single machine. Sometimes, different partitions of data are located in different continents. The slowdown in hardware development and network speed increases can also be a major concern for the future of machine learning. Lastly, privacy concerns and regulations could prevent movement of data between different countries or even devices, further complicating the learning process.
 
-One of the most realistic ways to combat those problems is to distribute the training of Deep Learning models among a number of distinct computers. The massively parallel nature of artificial neural networks, which form the backbone of deep learning, helps in this regard.
+One of the most realistic ways to combat those problems is to distribute the training of Deep Learning models among a number of distinct computers. The machines would not necessarily need to be located in one locality and could theoretically be distributed among different continents. The massively parallel nature of artificial neural networks, which form the backbone of deep learning, helps in this regard.
 
 Generative Adversarial Networks (GANs)\cite{goodfellow2014generative} are a deep learning model that learns the distribution of the input data and outputs data points from that distribution. One of the domains where GANs are popular is the domain of image generation. A properly trained GAN can learn from a dataset of images and then, output new images that, while not found in the dataset, follow the same general rule. For example, a GAN properly trained on dataset containing images of cats will be able to output new cat images.
 
@@ -102,7 +102,7 @@ Related literature to this field can be classified in three major subgroups:
 
 This section presents the publications based on the above groupings.
 
-\subsection{General Machine Learning Distribution}
+\subsection{Distribution of general machine learning algorithms}
 
 Previous work on methods to distribute machine learning algorithms in general mostly tries to find efficient ways for each machine to access the elements of the dataset over a network. One of the main characteristics of these approaches is that there are very few assumptions about the underlying machine learning algorithm. As a result, they can usually be exploited by broad groups of machine learning algorithms.
 
@@ -119,9 +119,15 @@ One way to address this is by centralizing all of the data into a single data ce
 
 To address these issues, Cano et. al\cite{cano2016towards} introduced a method to perform some machine learning algorithms in a geo-distributed manner. This approach tries to minimize communications between datacenters by only sending statistical information and estimates between them. The machine learning algorithms that can be geo-distributed this way are the ones that can fit the Statistical Query Model\cite{kearns1998efficient}.
 
-While the previous approach helped mitigate the problem with cross-datacenter communications, it is limited to only a subset of the machine learning algorithms. To address this, Hsieh et. al\cite{hsieh2017gaia} introduced a method called Gaia. This method tries to limit the communication between different datacenters without changing the underlying machine learning algorithm. It works by reducing the communication to synchronize the models in different datacenters. Instead, it does so only when the models have sufficiently diverged from each other.
+While the previous approach helped mitigate the problem with cross-datacenter communications, it is limited to only a subset of the machine learning algorithms. To address this, Hsieh et al.\cite{hsieh2017gaia} introduced a method called Gaia. This method tries to limit the communication between different datacenters without changing the underlying machine learning algorithm. It works by reducing the communication to synchronize the models in different datacenters. Instead, it does so only when the models have sufficiently diverged from each other.
 
-This approach works on the basis that most of the machine learning algorithms iterations do not change the parameter values significantly. 
+This approach works on the basis that most of the machine learning algorithms iterations do not change the parameter values significantly. Communicating each of these insignificant updates to the central model will use up valuable cross-datacenter network bandwidth. Waiting until significant divergence can be detected in the model before submitting the changes will drastically decrease the communications between different datacenters. Within datacenters themselves, the shortage of network bandwidth is not as profound. This means that within each datacenter, updates could always be synchronized.
+
+\subsection{Distribution of neural network training}
+
+While general approaches for distributing machine learning tasks have shown to work well in many situations, their all-encompassing nature and the need to apply for many different machine leaning algorithms prevents them from reaching the best possible performance for the task at hand. As neural networks become more and more popular, the need for distribution mechanisms tailored for train these models increases.
+
+One approach is Federated Learning. Proposed by McMahan et al.\cite{BrendanMcMahan2017}, 
 
 % ############################################################################
 % Bibliography
