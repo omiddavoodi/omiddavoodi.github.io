@@ -2136,6 +2136,8 @@
     <bcf:citekey order="5">kearns1998efficient</bcf:citekey>
     <bcf:citekey order="6">hsieh2017gaia</bcf:citekey>
     <bcf:citekey order="7">BrendanMcMahan2017</bcf:citekey>
+    <bcf:citekey order="8">goodfellow2014qualitatively</bcf:citekey>
+    <bcf:citekey order="9">Hardy2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -375,6 +375,83 @@
       \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Brendan McMahan et al. - 2017 - Communication-efficient learning of deep networks from decentralized data.pdf:pdf
       \endverb
     \endentry
+    \entry{goodfellow2014qualitatively}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian\bibnamedelima J},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=494b568c5dc85ba8f3f409635f9c5f25}{%
+           family={Vinyals},
+           familyi={V\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod}}}%
+        {{hash=53616ee81ed88f0441878711fa47dd26}{%
+           family={Saxe},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{fullhash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{bibnamehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{authorbibnamehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{authornamehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{authorfullhash}{57fa2b771aa58de316b258e9c03b2797}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.6544}
+      \field{title}{Qualitatively characterizing neural network optimization problems}
+      \field{year}{2014}
+    \endentry
+    \entry{Hardy2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=80bd075512146f362ec93b33ca625dd3}{%
+           family={Hardy},
+           familyi={H\bibinitperiod},
+           given={Corentin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=486793a6b607bb70a325323d41e6f9fe}{%
+           family={{Le Merrer}},
+           familyi={L\bibinitperiod},
+           given={Erwan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5494491df7f6d7c958c5af21731d8bb4}{%
+           family={Sericola},
+           familyi={S\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{fullhash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{bibnamehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{authorbibnamehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{authornamehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{authorfullhash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A recent technical breakthrough in the domain of machine learning is the discovery and the multiple applications of Generative Adversarial Networks (GANs). Those generative models are computationally demanding, as a GAN is composed of two deep neural networks, and because it trains on large datasets. A GAN is generally trained on a single server. In this paper, we address the problem of distributing GANs so that they are able to train over datasets that are spread on multiple workers. MD-GAN is exposed as the first solution for this problem: we propose a novel learning procedure for GANs so that they fit this distributed setup. We then compare the performance of MD-GAN to an adapted version of Federated Learning to GANs, using the MNIST and CIFAR10 datasets. MD-GAN exhibits a reduction by a factor of two of the learning complexity on each worker node, while providing better performances than federated learning on both datasets. We finally discuss the practical implications of distributing GANs.}
+      \field{journaltitle}{2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS)}
+      \field{number}{ii}
+      \field{title}{{MD-GAN: Multi-Discriminator Generative Adversarial Networks for Distributed Datasets}}
+      \field{year}{2019}
+      \field{pages}{866\bibrangedash 877}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ipdps.2019.00095
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/user/Downloads/08821025.pdf:pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

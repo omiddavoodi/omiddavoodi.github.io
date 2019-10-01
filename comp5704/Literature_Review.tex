@@ -127,7 +127,17 @@ This approach works on the basis that most of the machine learning algorithms it
 
 While general approaches for distributing machine learning tasks have shown to work well in many situations, their all-encompassing nature and the need to apply for many different machine leaning algorithms prevents them from reaching the best possible performance for the task at hand. As neural networks become more and more popular, the need for distribution mechanisms tailored for train these models increases.
 
-One approach is Federated Learning. Proposed by McMahan et al.\cite{BrendanMcMahan2017}, 
+One approach is Federated Learning Proposed by McMahan et al.\cite{BrendanMcMahan2017}. This approach tries to distribute the training of a neural network among a large number of mobile devices each with a local dataset. To do so, a fraction of the devices are selected and the gradient of the loss over all data contained within each is calculated. These gradients are then sent into a central server. The central server then naively averages the gradients and repeats the process for another subset of the nodes.
+
+Naively averaging these gradients has been shown to have the potential to result it bad models.\cite{goodfellow2014qualitatively} To combat this, federated learning synchronizes the initial weights of the different models. Empirical results from the paper show that this approach results in relatively good average models, even those that have only been trained on different portions of the dataset.
+
+\subsection{Distribution of GAN training}
+
+Generative adversarial networks are different in that the consist of two separate networks that are trained in two phases. Previous neural network training distribution schemes are generally working to distribute the training of networks used in classification. The training of GANs on the other hand, is not as straightforward as that of normal classifier neural nets.
+
+One of the more recent suggested methods for training GANs in distributed settings is the MD-GAN architecture.\cite{Hardy2019} The way this architecture deals with the problem of having two networks is to only synchronize the generator of the GAN. As the generator is usually the real reason for training a generative adversarial network, having different local discriminators would not be a disadvantage of this approach. On the other hand, it could simplify the training procedure and help with convergence in a model known for being hard to train.
+
+Simply using synchronized generators with local discriminators is not going to guarantee success. The approach assumes that the class distribution among different nodes is similar. It also interchanges the discriminators in fixed intervals. This is needed because otherwise the discriminators will overfit on local data and will result in the generator to diverge.
 
 % ############################################################################
 % Bibliography
