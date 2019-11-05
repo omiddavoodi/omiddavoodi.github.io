@@ -25,18 +25,18 @@
 % Title
 % ############################################################################
 
-\title{PRESENTATION OUTLINE: --- Your Project Title ---}
+\title{PRESENTATION OUTLINE: Determining the susceptibility of MD-GAN networks to nodes containing datasets with different class distributions}
 
 
 % ############################################################################
 % Author(s) (no blank lines !)
 \author{
 % ############################################################################
-John Doe\\
+Omid Davoudi\\
 School of Computer Science\\
 Carleton University\\
 Ottawa, Canada K1S 5B6\\
-{\em John-Doe@scs.carleton.ca}
+{\em omiddavoudi@cmail.carleton.ca}
 % ############################################################################
 } % end-authors
 % ############################################################################
@@ -44,23 +44,82 @@ Ottawa, Canada K1S 5B6\\
 \maketitle
 
 % ############################################################################
-\begin{slide}{Title of my first slide}
-\item first thing
-\item second thing
-\item third thing
-\item fourth thing
+\begin{slide}{Distributed Machine Learning}
+\item Very larger datasets
+\item More computational power needed
+\item Globalization of data
+\item Regulations preventing data movement
 \end{slide}
-
 
 % ############################################################################
-\begin{slide}{Title of my second slide}
-\item first thing
-\item second thing
-\item third thing
-\item fourth thing
+\begin{slide}{Distributed Machine Learning - Common Methods}
+\item Parameter Server
+\item Federated Learning
+\item Gaia
 \end{slide}
 
-\noindent ... more slides ...
+% ############################################################################
+\begin{slide}{Generative Adversarial Networks (GANs)}
+\item Generative models
+\item Most commonly used for generating images
+\item Consist of two neural networks, a Generator and a Discriminator
+\item Training is tricky, convergence is hard to achieve
+\end{slide}
+
+% ############################################################################
+\begin{slide}{MD-GAN}
+\item GAN architecture designed for distributed training
+\item Main idea is to share parameters for the generator, but have unsynchronized local discriminators
+\item Assumes each node has a dataset with similar class distributions
+\item Periodically switches discriminators between nodes to avoid overfitting on local datasets.
+\end{slide}
+
+% ############################################################################
+\begin{slide}{MD-GAN - Potential vulnerability}
+\item Differences in class distributions between different datasets
+\item These differences always exist in real life
+\item Theoretically, they can result in non-convergence
+\item Switching discriminators between nodes with highly divergent class distributions could result in catastrophic forgetting
+\end{slide}
+
+% ############################################################################
+\begin{slide}{MD-GAN - Testing the extent of vulnerability}
+\item Proposed test setup: Cluster with at least 4 nodes
+\item Distribute the data evenly among the nodes
+\item Train until convergence
+\item Create skewed datasets each with one class being overrepresented
+\item Repeat the experiment with increasingly more skewed datasets
+\end{slide}
+
+% ############################################################################
+\begin{slide}{MD-GAN - Vulnerability results}
+\item Results go here: Convergence time (or lack of convergence) for each dataset
+\end{slide}
+
+% ############################################################################
+\begin{slide}{MD-GAN - Potential avenue for training speed-up}
+\item Training of the discriminator could happen while the generator is being synchronized
+\item Training happens using the old generator
+\item Better utilization of computational power
+\item Could destabilize the training process or result in non-convergence
+\item Test done with non-skewed datasets
+\end{slide}
+
+% ############################################################################
+\begin{slide}{MD-GAN - Speed-up results}
+\item Results go here: Convergence time (or lack of convergence) for using this method compared to not using it
+\end{slide}
+
+% ############################################################################
+\begin{slide}{Conclusions}
+\item MD-GAN is valid/invalid for real world/skewed datasets
+\item MD-GAN speed-up did/did not give favourable results
+\end{slide}
+
+% ############################################################################
+\begin{slide}{References}
+\item References go here...
+\end{slide}
 
 % ############################################################################
 % Bibliography
