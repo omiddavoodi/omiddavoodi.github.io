@@ -1,0 +1,25 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'Final_Paper.blg'
+[30] biber-MSWIN64:315> INFO - === 
+[52] Biber.pm:375> INFO - Reading 'Final_Paper.bcf'
+[152] Biber.pm:905> INFO - Found 13 citekeys in bib section 0
+[169] Biber.pm:4196> INFO - Processing section 0
+[171] Utils.pm:75> INFO - Globbing data source 'my-bibliography.bib'
+[181] Utils.pm:91> INFO - Globbed data source 'my-bibliography.bib' to my-bibliography.bib
+[196] Biber.pm:4373> INFO - Looking for bibtex format file 'my-bibliography.bib' for section 0
+[201] bibtex.pm:1462> INFO - LaTeX decoding ...
+[238] bibtex.pm:1281> INFO - Found BibTeX data source 'my-bibliography.bib'
+[372] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 13, warning: 33 characters of junk seen at toplevel
+[373] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 24, warning: 33 characters of junk seen at toplevel
+[373] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 35, warning: 33 characters of junk seen at toplevel
+[373] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 45, warning: 33 characters of junk seen at toplevel
+[373] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 56, warning: 33 characters of junk seen at toplevel
+[373] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 66, warning: 33 characters of junk seen at toplevel
+[373] Utils.pm:300> WARN - BibTeX subsystem: C:\Users\user\AppData\Local\Temp\BoZNJRJXRs\my-bibliography.bib_10432.utf8, line 77, warning: 33 characters of junk seen at toplevel
+[394] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[394] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[394] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[394] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[411] bbl.pm:648> INFO - Writing 'Final_Paper.bbl' with encoding 'UTF-8'
+[425] bbl.pm:751> INFO - Output to Final_Paper.bbl
+[426] Biber.pm:110> INFO - WARNINGS: 7

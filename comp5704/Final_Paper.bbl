@@ -1,0 +1,678 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{goodfellow2014generative}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{bibnamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorbibnamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Generative adversarial nets}
+      \field{year}{2014}
+      \field{pages}{2672\bibrangedash 2680}
+      \range{pages}{9}
+    \endentry
+    \entry{mescheder2018training}{article}{}
+      \name{author}{3}{}{%
+        {{hash=00429e7f3507eb48f703bc1260af714a}{%
+           family={Mescheder},
+           familyi={M\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06133052ac3c14a188601b82783cd4f7}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=19f1290979d0752b02fbf7ab6b20f438}{%
+           family={Nowozin},
+           familyi={N\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{fullhash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{bibnamehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{authorbibnamehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{authornamehash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \strng{authorfullhash}{23df7cca41ad18a63f0bab34ab70a82e}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1801.04406}
+      \field{title}{Which training methods for GANs do actually converge?}
+      \field{year}{2018}
+    \endentry
+    \entry{Hardy2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=80bd075512146f362ec93b33ca625dd3}{%
+           family={Hardy},
+           familyi={H\bibinitperiod},
+           given={Corentin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=486793a6b607bb70a325323d41e6f9fe}{%
+           family={{Le Merrer}},
+           familyi={L\bibinitperiod},
+           given={Erwan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5494491df7f6d7c958c5af21731d8bb4}{%
+           family={Sericola},
+           familyi={S\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{fullhash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{bibnamehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{authorbibnamehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{authornamehash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \strng{authorfullhash}{c8d63eb81f0cde4b768443edf0f831aa}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A recent technical breakthrough in the domain of machine learning is the discovery and the multiple applications of Generative Adversarial Networks (GANs). Those generative models are computationally demanding, as a GAN is composed of two deep neural networks, and because it trains on large datasets. A GAN is generally trained on a single server. In this paper, we address the problem of distributing GANs so that they are able to train over datasets that are spread on multiple workers. MD-GAN is exposed as the first solution for this problem: we propose a novel learning procedure for GANs so that they fit this distributed setup. We then compare the performance of MD-GAN to an adapted version of Federated Learning to GANs, using the MNIST and CIFAR10 datasets. MD-GAN exhibits a reduction by a factor of two of the learning complexity on each worker node, while providing better performances than federated learning on both datasets. We finally discuss the practical implications of distributing GANs.}
+      \field{journaltitle}{2019 IEEE International Parallel and Distributed Processing Symposium (IPDPS)}
+      \field{number}{ii}
+      \field{title}{{MD-GAN: Multi-Discriminator Generative Adversarial Networks for Distributed Datasets}}
+      \field{year}{2019}
+      \field{pages}{866\bibrangedash 877}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ipdps.2019.00095
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/user/Downloads/08821025.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Li2014}{article}{}
+      \name{author}{13}{}{%
+        {{hash=c4a02f87e51fc72ab3f841de1a3982a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=89b4b2a6fa735d08993dc81c86f31571}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=eb3f82855af18c6500a976b9f2253c74}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jun\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=63ce7b48a93e8ce6d92c61fe6cd7b71a}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod}}}%
+        {{hash=71d9618878f006b02c9cfc5e838d2800}{%
+           family={Josifovski},
+           familyi={J\bibinitperiod},
+           given={Vanja},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4fef5995f37ce2ea2d100a4c9de0a536}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f392407999d216a90d2afc503f61d43c}{%
+           family={Shekita},
+           familyi={S\bibinitperiod},
+           given={Eugene\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ce418d928b8c49ca3f75caa691519759}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Bor-yiing},
+           giveni={B\bibinithyphendelim y\bibinitperiod}}}%
+        {{hash=c4a02f87e51fc72ab3f841de1a3982a7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=89b4b2a6fa735d08993dc81c86f31571}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima G},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=eb3f82855af18c6500a976b9f2253c74}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jun\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=82d61e31b4f7f82ad59ff887349bdfe3}{%
+           family={Smola},
+           familyi={S\bibinitperiod},
+           given={Alexander\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=63ce7b48a93e8ce6d92c61fe6cd7b71a}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{fullhash}{39b8d3dbd74a15bb8fdc1deee50d9f67}
+      \strng{bibnamehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{authorbibnamehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{authornamehash}{d36e941d662cc7a78480e2756f64efe1}
+      \strng{authorfullhash}{39b8d3dbd74a15bb8fdc1deee50d9f67}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a parameter server framework for distributed machine learning problems. Both data and workloads are distributed over worker nodes, while the server nodes maintain globally shared parameters, represented as dense or sparse vectors and matrices. The framework manages asynchronous data communication between nodes, and supports flexible consistency models, elastic scalability, and continuous fault tolerance. To demonstrate the scalability of the proposed frame-work, we show experimental results on petabytes of real data with billions of examples and parameters on prob-lems ranging from Sparse Logistic Regression to Latent Dirichlet Allocation and Distributed Sketching.}
+      \field{isbn}{9781931971164}
+      \field{journaltitle}{Proceedings of OSDI}
+      \field{title}{{Scaling Distributed Machine Learning with the Parameter Server}}
+      \field{year}{2014}
+      \field{pages}{583\bibrangedash 598}
+      \range{pages}{16}
+      \verb{file}
+      \verb :C$\backslash$:/Users/omid/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - 2014 - Scaling Distributed Machine Learning with the Parameter Server.pdf:pdf
+      \endverb
+    \endentry
+    \entry{cano2016towards}{article}{}
+      \name{author}{5}{}{%
+        {{hash=49ce7befb32d2db3ef64cb4f12dc1b05}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8789dc477eefa49388f15e510b8424c4}{%
+           family={Weimer},
+           familyi={W\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3a55a24e70b781030f26c1dd27a28d97}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Dhruv},
+           giveni={D\bibinitperiod}}}%
+        {{hash=08efe335b13664148cd14a5ad2d64b52}{%
+           family={Curino},
+           familyi={C\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=05c6f2bbd42a06caac64994208af80ae}{%
+           family={Fumarola},
+           familyi={F\bibinitperiod},
+           given={Giovanni\bibnamedelima Matteo},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{fullhash}{0c3c0faf4de130f761b96be2b3e25283}
+      \strng{bibnamehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{authorbibnamehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{authornamehash}{c2b79d3131ebf1d936ffd9a06d376245}
+      \strng{authorfullhash}{0c3c0faf4de130f761b96be2b3e25283}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1603.09035}
+      \field{title}{Towards geo-distributed machine learning}
+      \field{year}{2016}
+    \endentry
+    \entry{kearns1998efficient}{article}{}
+      \name{author}{1}{}{%
+        {{hash=17efa7d29b8763456cc47d49b27ade63}{%
+           family={Kearns},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{fullhash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{bibnamehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{authorbibnamehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{authornamehash}{17efa7d29b8763456cc47d49b27ade63}
+      \strng{authorfullhash}{17efa7d29b8763456cc47d49b27ade63}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM (JACM)}
+      \field{number}{6}
+      \field{title}{Efficient noise-tolerant learning from statistical queries}
+      \field{volume}{45}
+      \field{year}{1998}
+      \field{pages}{983\bibrangedash 1006}
+      \range{pages}{24}
+    \endentry
+    \entry{hsieh2017gaia}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=0685b7397f335a3e9d9d415d99d5cf09}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e168897e831461ec0641abba3cc86101}{%
+           family={Harlap},
+           familyi={H\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2b1f09a183ecb580fd6fea1bb3e3b970}{%
+           family={Vijaykumar},
+           familyi={V\bibinitperiod},
+           given={Nandita},
+           giveni={N\bibinitperiod}}}%
+        {{hash=13597e3c779732ed4c99a37f78eef6f6}{%
+           family={Konomis},
+           familyi={K\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c088fc39c55370692d55699c15dd1ffb}{%
+           family={Ganger},
+           familyi={G\bibinitperiod},
+           given={Gregory\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8a671c57e715f9770e740f9012f3a177}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={Phillip\bibnamedelima B},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5c37647ea7ea3d969c75fa814163e18f}{%
+           family={Mutlu},
+           familyi={M\bibinitperiod},
+           given={Onur},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{fullhash}{f71e1aaf087b2b9b9bdce082cbb518ed}
+      \strng{bibnamehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{authorbibnamehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{authornamehash}{0f5b035ec298e468d0665eacd851b0ee}
+      \strng{authorfullhash}{f71e1aaf087b2b9b9bdce082cbb518ed}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{14th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 17)}
+      \field{title}{Gaia: Geo-Distributed Machine Learning Approaching $\{$LAN$\}$ Speeds}
+      \field{year}{2017}
+      \field{pages}{629\bibrangedash 647}
+      \range{pages}{19}
+    \endentry
+    \entry{BrendanMcMahan2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9209e222328755f377d421c29d8f9d6d}{%
+           family={{Brendan McMahan}},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4720b7685b2c38f8a5f238d67aac6c45}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Eider},
+           giveni={E\bibinitperiod}}}%
+        {{hash=86066638fba5b4dc33bcee0bcba473cf}{%
+           family={Ramage},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bd7751169aeb03f0e8ce6fd2a06822d3}{%
+           family={Hampson},
+           familyi={H\bibinitperiod},
+           given={Seth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b35041bca3c3edf78caf9ba2e13c6fd5}{%
+           family={{Ag{ü}era y Arcas}},
+           familyi={A\bibinitperiod},
+           given={Blaise},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{fullhash}{a999677511bb49e28748da4eb00086a1}
+      \strng{bibnamehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{authorbibnamehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{authornamehash}{72904608ba8f2f6409c03288bc09e377}
+      \strng{authorfullhash}{a999677511bb49e28748da4eb00086a1}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device. For example, language models can improve speech recognition and text entry, and image models can automatically select good photos. However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches. We advocate an alternative that leaves the training data distributed on the mobile devices, and learns a shared model by aggregating locally-computed updates. We term this decentralized approach Federated Learning. We present a practical method for the federated learning of deep networks based on iterative model averaging, and conduct an extensive empirical evaluation, considering five different model architectures and four datasets. These experiments demonstrate the approach is robust to the unbalanced and non-IID data distributions that are a defining characteristic of this setting. Communication costs are the principal constraint, and we show a reduction in required communication rounds by 10-100x as compared to synchronized stochastic gradient descent.}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, AISTATS 2017}
+      \field{title}{{Communication-efficient learning of deep networks from decentralized data}}
+      \field{volume}{54}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb arXiv:1602.05629v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Brendan McMahan et al. - 2017 - Communication-efficient learning of deep networks from decentralized data.pdf:pdf
+      \endverb
+    \endentry
+    \entry{goodfellow2014qualitatively}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian\bibnamedelima J},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=494b568c5dc85ba8f3f409635f9c5f25}{%
+           family={Vinyals},
+           familyi={V\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod}}}%
+        {{hash=53616ee81ed88f0441878711fa47dd26}{%
+           family={Saxe},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{fullhash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{bibnamehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{authorbibnamehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{authornamehash}{57fa2b771aa58de316b258e9c03b2797}
+      \strng{authorfullhash}{57fa2b771aa58de316b258e9c03b2797}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.6544}
+      \field{title}{Qualitatively characterizing neural network optimization problems}
+      \field{year}{2014}
+    \endentry
+    \entry{dean2012large}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=4aecfb0cc2e1e3b7899129fa2a94e2b8}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3d11e6f2a0d0a1183b2cf62996525afc}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f34904ef0a6e0864175e4c446f9fcf14}{%
+           family={Monga},
+           familyi={M\bibinitperiod},
+           given={Rajat},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ee3f7d7b96add98106db907e189d6c13}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bd7f88635b51bc5abb3d5a2cab967724}{%
+           family={Devin},
+           familyi={D\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=110bac034ee2649499af3a0caecd55a1}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=95ac6c23bb83367a9ed91ef0e828f26e}{%
+           family={Ranzato},
+           familyi={R\bibinitperiod},
+           given={Marc'aurelio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=99e8963f52f6bfb1af553a6a8823718a}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c7360a7ebeba8420b8c7e0eeb0cb81ac}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=decb3ccdac45fcb482db58da7bb34a14}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{22dbff284f8d6a274d7a4dcc5e95ffea}
+      \strng{fullhash}{155991a3692243d15225d493b116c341}
+      \strng{bibnamehash}{22dbff284f8d6a274d7a4dcc5e95ffea}
+      \strng{authorbibnamehash}{22dbff284f8d6a274d7a4dcc5e95ffea}
+      \strng{authornamehash}{22dbff284f8d6a274d7a4dcc5e95ffea}
+      \strng{authorfullhash}{155991a3692243d15225d493b116c341}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Large scale distributed deep networks}
+      \field{year}{2012}
+      \field{pages}{1223\bibrangedash 1231}
+      \range{pages}{9}
+    \endentry
+    \entry{wen2017terngrad}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=ea5b54a9d03b0c43c1e1c8b4f6e56c3d}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c8d152bb9c70f0704f130efddd27a886}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Cong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4fe97619fbcea382ff3f04ba8aedf48d}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=46482051204db915dc3288cb58167ddc}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chunpeng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ec9b41bdee42a86e3238c00be8bc627a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yandan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a598ab57c52f6e9189cda29ff5b955b7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yiran},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c7b2bb54b5e6ecaac22872ce5fa3f783}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec5c3521f9963397c28781f6964d0110}
+      \strng{fullhash}{26ce7e4b4cac14626481f58886d18546}
+      \strng{bibnamehash}{ec5c3521f9963397c28781f6964d0110}
+      \strng{authorbibnamehash}{ec5c3521f9963397c28781f6964d0110}
+      \strng{authornamehash}{ec5c3521f9963397c28781f6964d0110}
+      \strng{authorfullhash}{26ce7e4b4cac14626481f58886d18546}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Terngrad: Ternary gradients to reduce communication in distributed deep learning}
+      \field{year}{2017}
+      \field{pages}{1509\bibrangedash 1519}
+      \range{pages}{11}
+    \endentry
+    \entry{vallecorsa2018distributed}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=0bb8ee718da0595bb50492135195ace6}{%
+           family={Vallecorsa},
+           familyi={V\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bc83f95f39fbb0729c4a733c3a6906ef}{%
+           family={Carminati},
+           familyi={C\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d19c0a148337bcce0d3481ba28e9bef7}{%
+           family={Khattak},
+           familyi={K\bibinitperiod},
+           given={Gulrukh},
+           giveni={G\bibinitperiod}}}%
+        {{hash=421b5b41edcf04e84603e822c6b0e6fb}{%
+           family={Podareanu},
+           familyi={P\bibinitperiod},
+           given={Damian},
+           giveni={D\bibinitperiod}}}%
+        {{hash=32559fe91aa70adc3e026913184cde26}{%
+           family={Codreanu},
+           familyi={C\bibinitperiod},
+           given={Valeriu},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d7bc7aa2fbe870cc45723f99500b594e}{%
+           family={Saletore},
+           familyi={S\bibinitperiod},
+           given={Vikram},
+           giveni={V\bibinitperiod}}}%
+        {{hash=be0d7aa30c5304135fa45873ee02b008}{%
+           family={Pabst},
+           familyi={P\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f59ecb613df4909256d0a409db873707}
+      \strng{fullhash}{567064caa33ba260bf5191038156ea99}
+      \strng{bibnamehash}{f59ecb613df4909256d0a409db873707}
+      \strng{authorbibnamehash}{f59ecb613df4909256d0a409db873707}
+      \strng{authornamehash}{f59ecb613df4909256d0a409db873707}
+      \strng{authorfullhash}{567064caa33ba260bf5191038156ea99}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on High Performance Computing}
+      \field{title}{Distributed Training of Generative Adversarial Networks for Fast Detector Simulation}
+      \field{year}{2018}
+      \field{pages}{487\bibrangedash 503}
+      \range{pages}{17}
+    \endentry
+    \entry{horovod}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bfd9a4b99298a5e4a7b8a4b6712a9d69}{%
+           family={Sergeev},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1fd45f62af299f58e76c8fe0d59d45e2}{%
+           family={Balso},
+           familyi={B\bibinitperiod},
+           given={Mike\bibnamedelima Del},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a482f417bd8490381ff936dec6544007}
+      \strng{fullhash}{a482f417bd8490381ff936dec6544007}
+      \strng{bibnamehash}{a482f417bd8490381ff936dec6544007}
+      \strng{authorbibnamehash}{a482f417bd8490381ff936dec6544007}
+      \strng{authornamehash}{a482f417bd8490381ff936dec6544007}
+      \strng{authorfullhash}{a482f417bd8490381ff936dec6544007}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Horovod: fast and easy distributed deep learning in TensorFlow}
+      \field{volume}{abs/1802.05799}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1802.05799
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1802.05799
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1802.05799
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
