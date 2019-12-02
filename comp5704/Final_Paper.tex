@@ -179,20 +179,25 @@ To test the hypothesis, an MD-GAN architecture was implemented over a cluster of
 
 The dataset used was the MNIST handwritten digits dataset. In each experiment, each of the classes were split into 3 separate chunks and given to each of the workers to train on. As a result, no data point was shared between two workers. The split was created so that one of the workers got more data of the same class compared to the other two based on the skew value. One of the classes was always balanced for all of the workers to see the effects of mixed imbalances in the data.
 
-The experiment was done for skew values of 0\%, 20\%, 40\%, 60\%, 80\% and 100\%. A value of 0 means perfect balance and a value of 100 means that a node contains all of the instances of a class while the other two contain none (total imbalance). Samples of the best results after 20 epochs and a sample of the dataset are shown in Figure 1-7.
+The experiment was done for skew values of 0\%, 20\%, 40\%, 60\%, 80\% and 100\%. A value of 0 means perfect balance and a value of 100 means that a node contains all of the instances of a class while the other two contain none (total imbalance). Samples of the best results after 20 epochs and a sample of the dataset are shown in Figures 1-7 which can be found in the appendix.
 
- Figure~\ref{fig1} is a
-typical example of an experimental evaluation result. Such graphs
-are ususally created with GnuPlot.
+Please note that the base DCGAN used here did not converge into a stable form and always collapsed beyond recovery. Its best outputs shown in Figure 8 were on par with the outputs of the MD-GAN models with data skews of 0\%, 20\% and 40\%. By 60\% skew, the model began to show signs of loss of diversity, less recognizable outputs and artifacts in the images. The loss of diversity could be explained by the fact that the generator might have found a a common area in the data space which was common to all local distributions. The generator then started to generate outputs that satisfied all of the discriminators. The loss of visual fidelity is also expected as the generator will find it increasingly harder to fool all of the discriminators at once.
 
-\includeFig{fig1}{Figures/figure-1}{Measured Running Times
-Of Some Unknown Algorithm Implementation}
+The results show that the MD-GAN model is resistant to low amount of skew in local datasets, but after a threshold of around 60\%, it begins to show signs of failure. The threshold is enough for many of the real world datasets, but the vulnerability exists nonetheless. 
+
+
 % usage: \includeFig{label}{file}{caption}
 
+%\begin{figure}[f1]
+%\centering
+%\includegraphics{screenshot.png}
+%\end{figure}
 
 
 % ############################################################################
 \section{Conclusions} \label{concl}
+
+MD-GAN is an interesting architecture for distributed training of GANs. However, it is not without its flaws. The main weakness of this approach is differences in data distributions in local datasets situated in the nodes. Our results show that while this problem does not manifest until high amount of skew are in the datasets, some real world applications will still be beyond what this architecture can be applied to.
 % ############################################################################
 
 You generally cover three things in the Conclusions section.
@@ -216,6 +221,21 @@ The Future Research should indicate interesting new problems arising from your w
 %\bibliography{my-bibliography}     %loads my-bibliography.bib
 
 \printbibliography
+
+
+
+\section{Appendix - Figures} \label{app}
+
+
+
+\includeFig{fig1}{real.png}{Sample of data points from the dataset}
+\includeFig{fig2}{0.png}{Sample of best data points from the 0\% skew model.}
+\includeFig{fig3}{20.png}{Sample of best data points from the 20\% skew model.}
+\includeFig{fig4}{40.png}{Sample of best data points from the 40\% skew model.}
+\includeFig{fig5}{60.png}{Sample of best data points from the 60\% skew model.}
+\includeFig{fig6}{80.png}{Sample of best data points from the 80\% skew model.}
+\includeFig{fig7}{100.png}{Sample of best data points from the 100\% skew model.}
+\includeFig{fig7}{dcgan.png}{Sample of best data points from the base DCGAN model.}
 % ============================================================================
 \end{document}
 % ============================================================================

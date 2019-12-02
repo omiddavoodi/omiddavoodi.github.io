@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.27)  1 DEC 2019 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.27)  2 DEC 2019 14:00
 entering extended mode
 **./Final_Paper.tex
 (Final_Paper.tex
@@ -326,7 +326,11 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 \@quotelevel=\count287
 \@quotereset=\count288
 
-(Final_Paper.aux)
+(Final_Paper.aux
+
+LaTeX Warning: Label `fig7' multiply defined.
+
+)
 \openout1 = `Final_Paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -341,8 +345,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
-
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
 \scratchdimen=\dimen105
@@ -404,31 +407,71 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
  [2] [3] [4] [5]
-<Figures/figure-1.pdf, id=24, 361.35pt x 252.945pt>
-File: Figures/figure-1.pdf Graphic file (type pdf)
-<use Figures/figure-1.pdf>
-Package pdftex.def Info: Figures/figure-1.pdf  used on input line 189.
-(pdftex.def)             Requested size: 289.07999pt x 202.35626pt.
-
-[6 <./Figures/figure-1.pdf>]
+[6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 218.
+(Font)              <10.95> on input line 223.
 
-Overfull \hbox (8.036pt too wide) in paragraph at lines 220--220
+Overfull \hbox (8.036pt too wide) in paragraph at lines 224--224
 []\OT1/cmr/m/n/10.95 Corentin Hardy, Er-wan Le Mer-rer, and Bruno Seri-cola. ``
 MD-GAN: Multi-Discriminator
  []
 
-[7] (Final_Paper.aux)
+<real.png, id=28, 531.9875pt x 531.9875pt>
+File: real.png Graphic file (type png)
+<use real.png>
+Package pdftex.def Info: real.png  used on input line 231.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<0.png, id=29, 531.9875pt x 531.9875pt>
+File: 0.png Graphic file (type png)
+<use 0.png>
+Package pdftex.def Info: 0.png  used on input line 232.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<20.png, id=30, 531.9875pt x 531.9875pt>
+File: 20.png Graphic file (type png)
+<use 20.png>
+Package pdftex.def Info: 20.png  used on input line 233.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<40.png, id=31, 531.9875pt x 531.9875pt>
+File: 40.png Graphic file (type png)
+<use 40.png>
+Package pdftex.def Info: 40.png  used on input line 234.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<60.png, id=32, 531.9875pt x 531.9875pt>
+File: 60.png Graphic file (type png)
+<use 60.png>
+Package pdftex.def Info: 60.png  used on input line 235.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<80.png, id=33, 531.9875pt x 531.9875pt>
+File: 80.png Graphic file (type png)
+<use 80.png>
+Package pdftex.def Info: 80.png  used on input line 236.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<100.png, id=34, 531.9875pt x 531.9875pt>
+File: 100.png Graphic file (type png)
+<use 100.png>
+Package pdftex.def Info: 100.png  used on input line 237.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+<dcgan.png, id=35, 531.9875pt x 531.9875pt>
+File: dcgan.png Graphic file (type png)
+<use dcgan.png>
+Package pdftex.def Info: dcgan.png  used on input line 238.
+(pdftex.def)             Requested size: 289.07999pt x 289.08728pt.
+[7] [8 <./real.png (PNG copy)>] [9 <./0.png (PNG copy)>] [10 <./20.png (PNG cop
+y)>] [11 <./40.png (PNG copy)>] [12 <./60.png (PNG copy)>] [13 <./80.png (PNG c
+opy)>] [14 <./100.png (PNG copy)>] [15 <./dcgan.png (PNG copy)>]
+(Final_Paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'Final_Paper.run.xml'.
 \openout1 = `Final_Paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 8514 strings out of 492891
- 156974 string characters out of 3133351
- 600116 words of memory out of 3000000
- 12370 multiletter control sequences out of 15000+200000
+ 8555 strings out of 492891
+ 157291 string characters out of 3133351
+ 602216 words of memory out of 3000000
+ 12405 multiletter control sequences out of 15000+200000
  10397 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,45p,1344b,1245s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -441,9 +484,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Final_Paper.pdf (7 pages, 170645 bytes).
+Output written on Final_Paper.pdf (15 pages, 1825547 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
