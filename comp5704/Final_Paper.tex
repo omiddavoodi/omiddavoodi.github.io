@@ -198,20 +198,8 @@ The results show that the MD-GAN model is resistant to low amount of skew in loc
 \section{Conclusions} \label{concl}
 
 MD-GAN is an interesting architecture for distributed training of GANs. However, it is not without its flaws. The main weakness of this approach is differences in data distributions in local datasets situated in the nodes. Our results show that while this problem does not manifest until high amount of skew are in the datasets, some real world applications will still be beyond what this architecture can be applied to.
-% ############################################################################
 
-You generally cover three things in the Conclusions section.
-\begin{enumerate}
-\item Conclusions
-\item Summary of Contributions
-\item Future Research
-\end{enumerate}
-
-Conclusions are not a rambling summary of the thesis: they are short, concise statements of the inferences that you have made because of your work. All conclusions should be directly related to the research question.
-
-The Summary of Contributions will be much sought and carefully read by the readers. Here you list the contributions of new knowledge that your paper makes. Of course, the paper itself must substantiate any claims made here. There is often some overlap with the Conclusions, but that’s okay.
-
-The Future Research should indicate interesting new problems arising from your work. No paper ever solves everything. In fact, the best research papers lead to new research questions for other researchers to work on.
+Future evaluations are also needed to test the learning ability of MD-GAN version of other GAN methods. Wasserstein GAN for example, is used to combat mode collapse. The possible problem with WGAN or other distribution based methods is the fact that in case the local data distributions are different, the generator might have a harder time converging because the distribution error can never decrease beyond a certain amount. This could also have potential consequences on the usefulness of MD-GAN in real world problems.
 
 
 % ############################################################################
